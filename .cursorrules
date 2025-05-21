@@ -1,0 +1,137 @@
+// TypeScript React .cursorrules
+
+// Prefer functional components
+const preferFunctionalComponents = true;
+
+// TypeScript React best practices
+const typescriptReactBestPractices = [
+  "Use React.FC for functional components with props",
+  "Utilize useState and useEffect hooks for state and side effects",
+  "Implement proper TypeScript interfaces for props and state",
+  "Use React.memo for performance optimization when needed",
+  "Implement custom hooks for reusable logic",
+  "Utilize TypeScript's strict mode",
+  "Use early returns whenever possible to make the code more readable"
+];
+
+// Next.js and Tailwind best practices
+const nextJsTailwindBestPractices = [
+  "Use latest version of Next.js (App Router)",
+  "Implement Tailwind CSS for styling",
+  "Implement proper TypeScript types",
+  "Use Supabase integration where needed",
+  "Focus on performance",
+  "Ensure code is secure and efficient"
+];
+
+// Folder structure
+const folderStructure = `
+project/
+├── app/                  # Next.js 13+ App Router
+│   ├── layout.tsx        # Root layout
+│   ├── globals.css       # Global styles
+│   ├── (routes)/         # Route groups
+│   │   └── home/         # Home page route
+│   └── page.tsx          # Root page
+├── components/           # Reusable components
+│   ├── ui/               # UI components
+│   │   ├── button/       # Button components
+│   │   ├── dialog/       # Dialog components
+│   │   └── tabs/         # Tab components
+│   ├── features/         # Feature-specific components
+│   │   └── home/         # Home components
+│   └── common/           # Common shared components
+├── lib/                  # Utility functions and libraries
+│   ├── utils/            # Helper functions
+│   ├── hooks/            # Custom React hooks
+│   ├── api/              # API integration
+│   └── types/            # TypeScript types
+├── public/               # Static assets
+│   ├── images/           # Image assets
+│   └── fonts/            # Font assets
+├── i18n/                 # Internationalization
+│   ├── locales/          # Translation files
+│   │   ├── en.json       # English translations
+│   │   └── vi.json       # Vietnamese translations
+│   └── config.ts         # i18n configuration
+├── styles/               # Global styles
+│   └── tailwind/         # Tailwind configurations
+├── .github/              # GitHub configurations
+├── .vscode/              # VS Code configurations
+└── config/               # Project configuration
+    ├── next.config.ts
+    ├── tsconfig.json
+    ├── package.json
+    ├── .prettierrc.json
+    ├── eslint.config.mjs
+    └── postcss.config.mjs
+`;
+
+// Additional instructions
+const additionalInstructions = `
+1. Use .tsx extension for files with JSX
+2. Implement strict TypeScript checks
+3. Utilize React.lazy and Suspense for code-splitting
+4. Use type inference where possible
+5. Implement error boundaries for robust error handling
+6. Follow React and TypeScript best practices and naming conventions
+7. Use ESLint with TypeScript and React plugins for code quality
+8. Use Tailwind CSS for all styling needs
+12. Focus on performance, code readability and maintainability
+13. Write fully functional, bug-free code without placeholders
+14. Use appropriate security measures
+15. Optimize for performance where it does not compromise readability
+`;
+
+// Development workflow
+const developmentWorkflow = `
+1. Think step-by-step and plan in pseudocode
+2. Confirm requirements with user
+3. Implement complete, working solutions
+4. No TODOs or placeholders
+5. Reference filenames clearly
+6. Be concise in explanations
+7. Admit when unsure instead of guessing
+`;
+
+// Commit message format
+const commitMessageFormat = `
+<type>[(<scope>)]: <subject>
+
+### Commit Types:
+- **Feat**: Develop a new feature.
+- **Fix**: Fix a bug.
+- **CI**: Configure CI/CD, install packages, update versions, etc.
+- **Refactor**: Improve code without affecting logic.
+- **Docs**: Write or update documentation.
+- **Test**: Perform testing.
+
+### Scope:
+- The scope should be the related git branch name, e.g., `Feat(AFC-10)`.
+
+### Subject:
+- Must be written in English.
+- Capitalize the first letter of the subject.
+- Begin with a verb describing the action, e.g., Add, Change, Remove, etc.
+- Prefer to use instead of.
+- Not use Simplify, Improve, For better, ...
+- If multiple distinct actions are included in one commit, separate them using ;.
+- Avoid using the same commit message repeatedly.
+- Ensure the commit message accurately reflects the code changes.
+
+### Examples:
+- CI: Update gitignore; Increase version to 0.0.2
+- Feat(AFC-10): Add EventPage
+- Fix(AFC-8): Fix i18n
+- Docs: Update API docs
+`;
+
+// Coding Environment
+const codingEnvironment = `
+Primary technologies:
+- Next.js (Latest version)
+- TypeScript
+- Tailwind CSS
+- React
+- HTML/CSS
+`;
